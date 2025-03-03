@@ -86,4 +86,4 @@ app.listen(PORT, () => {
 });
 
 // Export the pool for use in other modules
-export default pool;
+export default { pool, app };
